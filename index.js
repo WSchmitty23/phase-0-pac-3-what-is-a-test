@@ -3,7 +3,6 @@ const height = 74;
 const message = `${name} is ${height} inches tall`;
 
 module.exports = {name, height, message};
-function doNothing() {
-    function sayHelloToGuadalupe() {
-        console.log("Hello, Guadalupe!");
-      }
+function sayHello(tom) {
+    console.log("Hello!");
+  }
